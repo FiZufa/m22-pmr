@@ -1,0 +1,66 @@
+{
+  "query_id": "Q004",
+  "query": "How do I return a defective monitor under warranty?",
+  "candidates": [
+    {
+      "candidate_id": "DOC_001",
+      "candidate_text": "Product Return Policy: Customers may return defective products within 30 days of delivery. Items under manufacturer warranty can be returned within the warranty period for repair or replacement. Return shipping is covered for verified defects. Include RMA number in the package.",
+      "bm25_score": 16.23, "vector_score": 0.92, "metadata_score": 0.94,
+      "bm25_rank": 1, "vector_rank": 1, "metadata_rank": 1,
+      "rrf_score": 0.052,
+      "source_type": "official_policy", "tenant_id": "sales",
+      "department": "operations", "document_type": "policy",
+      "created_at": "2025-02-10", "last_updated": "2026-03-15",
+      "completeness_score": 0.96,
+      "metadata": { "owner": "Sales Operations", "version": "4.2" }
+    },
+    {
+      "candidate_id": "DOC_002",
+      "candidate_text": "Warranty Terms and Conditions: Electronics — 1-year limited hardware warranty covering manufacturing defects. Does not cover accidental damage, normal wear, or unauthorized modifications. To file a claim, contact warranty support with proof of purchase and defect description.",
+      "bm25_score": 14.12, "vector_score": 0.88, "metadata_score": 0.89,
+      "bm25_rank": 2, "vector_rank": 3, "metadata_rank": 2,
+      "rrf_score": 0.044,
+      "source_type": "sop_repository", "tenant_id": "sales",
+      "department": "operations", "document_type": "terms",
+      "created_at": "2025-04-01", "last_updated": "2026-02-20",
+      "completeness_score": 0.93,
+      "metadata": { "owner": "Legal Team", "version": "2.0" }
+    },
+    {
+      "candidate_id": "DOC_003",
+      "candidate_text": "FAQ: Defective Product Returns — Q: How do I get a replacement for a faulty monitor? A: Contact customer support with your order number. If the defect is confirmed, we issue an RMA and send a prepaid return label. Replacement ships after the return is scanned by the carrier.",
+      "bm25_score": 11.56, "vector_score": 0.83, "metadata_score": 0.81,
+      "bm25_rank": 3, "vector_rank": 2, "metadata_rank": 4,
+      "rrf_score": 0.041,
+      "source_type": "knowledge_base", "tenant_id": "sales",
+      "department": "operations", "document_type": "faq",
+      "created_at": "2025-06-15", "last_updated": "2026-01-25",
+      "completeness_score": 0.80,
+      "metadata": { "owner": "Customer Service", "version": "1.5" }
+    },
+    {
+      "candidate_id": "DOC_004",
+      "candidate_text": "Agent transcript: Customer complained monitor has dead pixels. Agent asked for photos. Customer sent photos showing 6 dead pixels in center. Agent initiated RMA process. Replacement unit approved under warranty.",
+      "bm25_score": 8.98, "vector_score": 0.77, "metadata_score": 0.38,
+      "bm25_rank": 5, "vector_rank": 4, "metadata_rank": 8,
+      "rrf_score": 0.025,
+      "source_type": "chat_transcript", "tenant_id": "support",
+      "department": "operations", "document_type": "interaction",
+      "created_at": "2026-04-10", "last_updated": "2026-04-10",
+      "completeness_score": 0.35,
+      "metadata": { "owner": "Support Queue", "version": "N/A" }
+    },
+    {
+      "candidate_id": "DOC_005",
+      "candidate_text": "IT asset management policy: Procedure for issuing, tracking, and decommissioning company laptops and monitors for employees. Includes asset tag assignment and depreciation schedule.",
+      "bm25_score": 6.45, "vector_score": 0.48, "metadata_score": 0.75,
+      "bm25_rank": 9, "vector_rank": 8, "metadata_rank": 3,
+      "rrf_score": 0.021,
+      "source_type": "official_policy", "tenant_id": "it",
+      "department": "it", "document_type": "policy",
+      "created_at": "2025-09-01", "last_updated": "2026-01-10",
+      "completeness_score": 0.94,
+      "metadata": { "owner": "IT Department", "version": "3.1" }
+    }
+  ]
+}

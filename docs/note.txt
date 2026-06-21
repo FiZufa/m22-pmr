@@ -1,0 +1,5 @@
+PMR V1
+Cross Encoder → Domain Scoring → Final Score
+
+PMR V2
+Cross Encoder → Semantic Gate → Domain Scoring + Confidence Assessment → Answer Probability

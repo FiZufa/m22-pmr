@@ -1,0 +1,66 @@
+{
+  "query_id": "Q006",
+  "query": "Do you ship to Singapore? How long does it take?",
+  "candidates": [
+    {
+      "candidate_id": "DOC_001",
+      "candidate_text": "International Shipping Policy: We ship to 50+ countries including Singapore. Standard shipping: 10-14 business days via DHL Express. Express shipping: 5-7 business days. Customs duties and taxes are calculated at checkout and are the recipient's responsibility. Free shipping on orders over $200 USD.",
+      "bm25_score": 17.45, "vector_score": 0.93, "metadata_score": 0.94,
+      "bm25_rank": 1, "vector_rank": 1, "metadata_rank": 1,
+      "rrf_score": 0.054,
+      "source_type": "official_policy", "tenant_id": "shipping",
+      "department": "logistics", "document_type": "policy",
+      "created_at": "2025-05-01", "last_updated": "2026-03-10",
+      "completeness_score": 0.95,
+      "metadata": { "owner": "Logistics Team", "version": "3.2" }
+    },
+    {
+      "candidate_id": "DOC_002",
+      "candidate_text": "FAQ: Shipping to Asia-Pacific — Q: Do you deliver to Singapore? A: Yes, we ship to Singapore via DHL and FedEx. Q: What are typical delivery times? A: 7-12 business days depending on customs clearance. Tracking is provided via email once the order ships.",
+      "bm25_score": 13.98, "vector_score": 0.87, "metadata_score": 0.85,
+      "bm25_rank": 2, "vector_rank": 2, "metadata_rank": 3,
+      "rrf_score": 0.044,
+      "source_type": "knowledge_base", "tenant_id": "shipping",
+      "department": "logistics", "document_type": "faq",
+      "created_at": "2025-08-15", "last_updated": "2026-02-01",
+      "completeness_score": 0.81,
+      "metadata": { "owner": "Customer Service", "version": "1.3" }
+    },
+    {
+      "candidate_id": "DOC_003",
+      "candidate_text": "Carrier Rate Card — DHL Express: Singapore zone (SEA-3). Documents: $35-55 USD, 3-5 days. Parcels up to 5 kg: $65-90 USD, 5-8 days. Fuel surcharge applies. Saturday delivery available at additional cost.",
+      "bm25_score": 10.67, "vector_score": 0.76, "metadata_score": 0.72,
+      "bm25_rank": 4, "vector_rank": 5, "metadata_rank": 4,
+      "rrf_score": 0.032,
+      "source_type": "sop_repository", "tenant_id": "shipping",
+      "department": "logistics", "document_type": "rate_card",
+      "created_at": "2026-01-01", "last_updated": "2026-04-01",
+      "completeness_score": 0.78,
+      "metadata": { "owner": "Logistics Finance", "version": "1.0" }
+    },
+    {
+      "candidate_id": "DOC_004",
+      "candidate_text": "Agent transcript: Customer in Singapore asked about shipping time for ProScan X120. Agent quoted 8-12 business days. Customer opted for express shipping at $75. Order shipped next day. Tracking shared via email.",
+      "bm25_score": 8.12, "vector_score": 0.69, "metadata_score": 0.35,
+      "bm25_rank": 5, "vector_rank": 6, "metadata_rank": 8,
+      "rrf_score": 0.024,
+      "source_type": "chat_transcript", "tenant_id": "shipping",
+      "department": "logistics", "document_type": "interaction",
+      "created_at": "2026-03-20", "last_updated": "2026-03-20",
+      "completeness_score": 0.32,
+      "metadata": { "owner": "Support Queue", "version": "N/A" }
+    },
+    {
+      "candidate_id": "DOC_005",
+      "candidate_text": "Domestic shipping policy: Free ground shipping on orders over $50 within the continental US. 2-day express available for $12.99. Overnight shipping for $24.99. No shipping to PO boxes for express options.",
+      "bm25_score": 11.23, "vector_score": 0.78, "metadata_score": 0.88,
+      "bm25_rank": 3, "vector_rank": 3, "metadata_rank": 2,
+      "rrf_score": 0.040,
+      "source_type": "official_policy", "tenant_id": "shipping",
+      "department": "logistics", "document_type": "policy",
+      "created_at": "2025-03-01", "last_updated": "2026-01-15",
+      "completeness_score": 0.90,
+      "metadata": { "owner": "Logistics Team", "version": "2.5" }
+    }
+  ]
+}

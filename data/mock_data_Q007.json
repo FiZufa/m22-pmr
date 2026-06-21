@@ -1,0 +1,66 @@
+{
+  "query_id": "Q007",
+  "query": "How to update my company billing address and tax ID?",
+  "candidates": [
+    {
+      "candidate_id": "DOC_001",
+      "candidate_text": "Account Profile Update SOP: To change billing address, navigate to Account Settings > Billing > Address. Enter new address and confirm via email verification. To update Tax ID / VAT number, submit a support ticket with the updated tax certificate. Changes take effect within 1 business day.",
+      "bm25_score": 16.78, "vector_score": 0.91, "metadata_score": 0.93,
+      "bm25_rank": 1, "vector_rank": 1, "metadata_rank": 1,
+      "rrf_score": 0.051,
+      "source_type": "sop_repository", "tenant_id": "sales",
+      "department": "operations", "document_type": "sop",
+      "created_at": "2025-04-10", "last_updated": "2026-03-01",
+      "completeness_score": 0.94,
+      "metadata": { "owner": "Account Management", "version": "2.1" }
+    },
+    {
+      "candidate_id": "DOC_002",
+      "candidate_text": "FAQ: Billing and Tax Information — Q: How do I change my billing address? A: You can update it in your account portal under Billing Information. Q: How to update VAT number? A: Email billing@company.com with your new VAT certificate. Processing takes 24-48 hours.",
+      "bm25_score": 13.45, "vector_score": 0.85, "metadata_score": 0.83,
+      "bm25_rank": 2, "vector_rank": 2, "metadata_rank": 3,
+      "rrf_score": 0.042,
+      "source_type": "knowledge_base", "tenant_id": "sales",
+      "department": "operations", "document_type": "faq",
+      "created_at": "2025-07-20", "last_updated": "2026-02-15",
+      "completeness_score": 0.79,
+      "metadata": { "owner": "Customer Service", "version": "1.8" }
+    },
+    {
+      "candidate_id": "DOC_003",
+      "candidate_text": "Customer Account Management Policy: Customers are responsible for maintaining accurate billing information. Address changes must be verified. Tax ID updates require official documentation. Failure to maintain accurate information may result in invoice discrepancies.",
+      "bm25_score": 11.89, "vector_score": 0.80, "metadata_score": 0.86,
+      "bm25_rank": 3, "vector_rank": 4, "metadata_rank": 2,
+      "rrf_score": 0.039,
+      "source_type": "official_policy", "tenant_id": "sales",
+      "department": "finance", "document_type": "policy",
+      "created_at": "2025-01-15", "last_updated": "2025-12-01",
+      "completeness_score": 0.91,
+      "metadata": { "owner": "Finance Department", "version": "4.0" }
+    },
+    {
+      "candidate_id": "DOC_004",
+      "candidate_text": "Wiki: How to change company details in the portal — community-contributed guide. Steps may vary by account type. Some users report needing admin privileges to update tax information.",
+      "bm25_score": 8.56, "vector_score": 0.67, "metadata_score": 0.62,
+      "bm25_rank": 5, "vector_rank": 6, "metadata_rank": 5,
+      "rrf_score": 0.026,
+      "source_type": "wiki", "tenant_id": "sales",
+      "department": "operations", "document_type": "guide",
+      "created_at": "2025-09-10", "last_updated": "2025-10-05",
+      "completeness_score": 0.55,
+      "metadata": { "owner": "Community Wiki", "version": "1.2" }
+    },
+    {
+      "candidate_id": "DOC_005",
+      "candidate_text": "Chat transcript: Customer wanted to update billing address but could not find the option. Agent guided customer to Account Settings. Customer had billing and shipping address linked. Agent unlinked them and customer updated billing address successfully.",
+      "bm25_score": 10.12, "vector_score": 0.76, "metadata_score": 0.40,
+      "bm25_rank": 4, "vector_rank": 3, "metadata_rank": 7,
+      "rrf_score": 0.033,
+      "source_type": "chat_transcript", "tenant_id": "sales",
+      "department": "operations", "document_type": "interaction",
+      "created_at": "2026-04-12", "last_updated": "2026-04-12",
+      "completeness_score": 0.38,
+      "metadata": { "owner": "Support Queue", "version": "N/A" }
+    }
+  ]
+}

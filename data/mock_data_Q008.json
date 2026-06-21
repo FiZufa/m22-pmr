@@ -1,0 +1,66 @@
+{
+  "query_id": "Q008",
+  "query": "What bulk discount tiers do you offer for enterprise customers?",
+  "candidates": [
+    {
+      "candidate_id": "DOC_001",
+      "candidate_text": "Chat transcript: Sales rep told customer 'We can do 15% off for orders over 100 units, 20% for 500+. Let me check with my manager for anything above that.' Customer asked for 25% at 1000 units. Rep said 'Probably, I'll create a custom quote.'",
+      "bm25_score": 16.45, "vector_score": 0.88, "metadata_score": 0.38,
+      "bm25_rank": 1, "vector_rank": 4, "metadata_rank": 7,
+      "rrf_score": 0.047,
+      "source_type": "chat_transcript", "tenant_id": "sales",
+      "department": "sales", "document_type": "interaction",
+      "created_at": "2026-04-08", "last_updated": "2026-04-08",
+      "completeness_score": 0.30,
+      "metadata": { "owner": "Sales Queue", "version": "N/A" }
+    },
+    {
+      "candidate_id": "DOC_002",
+      "candidate_text": "Enterprise Pricing Policy: Volume discount tiers are as follows — Tier 1 (50-199 units): 10% discount. Tier 2 (200-499 units): 15% discount. Tier 3 (500-999 units): 20% discount. Tier 4 (1000+ units): 25% discount. Custom quotes available for strategic accounts. All tiers require annual commitment.",
+      "bm25_score": 15.23, "vector_score": 0.92, "metadata_score": 0.95,
+      "bm25_rank": 2, "vector_rank": 1, "metadata_rank": 1,
+      "rrf_score": 0.046,
+      "source_type": "official_policy", "tenant_id": "sales",
+      "department": "sales", "document_type": "policy",
+      "created_at": "2025-06-01", "last_updated": "2026-04-01",
+      "completeness_score": 0.97,
+      "metadata": { "owner": "Sales Operations", "version": "3.0" }
+    },
+    {
+      "candidate_id": "DOC_003",
+      "candidate_text": "FAQ: Enterprise Pricing — Q: Do you offer volume discounts? A: Yes, starting at 50 units. Discounts range from 10-25% depending on quantity. Contact your account manager for a customized quote. Government and educational institutions may qualify for additional discounts.",
+      "bm25_score": 12.98, "vector_score": 0.85, "metadata_score": 0.82,
+      "bm25_rank": 3, "vector_rank": 2, "metadata_rank": 3,
+      "rrf_score": 0.041,
+      "source_type": "knowledge_base", "tenant_id": "sales",
+      "department": "sales", "document_type": "faq",
+      "created_at": "2025-09-10", "last_updated": "2026-03-01",
+      "completeness_score": 0.82,
+      "metadata": { "owner": "Sales Knowledge", "version": "2.1" }
+    },
+    {
+      "candidate_id": "DOC_004",
+      "candidate_text": "Product catalog brochure: ProScan X120 Enterprise Bundle — includes scanner, 3-year warranty, priority support, and training. Designed for high-volume enterprise deployments. Speak to sales for custom pricing.",
+      "bm25_score": 9.34, "vector_score": 0.74, "metadata_score": 0.70,
+      "bm25_rank": 5, "vector_rank": 5, "metadata_rank": 4,
+      "rrf_score": 0.027,
+      "source_type": "product_catalog", "tenant_id": "sales",
+      "department": "product", "document_type": "brochure",
+      "created_at": "2025-11-15", "last_updated": "2026-02-01",
+      "completeness_score": 0.72,
+      "metadata": { "owner": "Product Marketing", "version": "1.2" }
+    },
+    {
+      "candidate_id": "DOC_005",
+      "candidate_text": "Performance review guidelines for sales representatives: annual quota targets, commission structure, and performance metrics for the fiscal year 2026.",
+      "bm25_score": 5.67, "vector_score": 0.38, "metadata_score": 0.55,
+      "bm25_rank": 10, "vector_rank": 11, "metadata_rank": 6,
+      "rrf_score": 0.016,
+      "source_type": "official_policy", "tenant_id": "hr",
+      "department": "hr", "document_type": "policy",
+      "created_at": "2025-12-01", "last_updated": "2026-01-01",
+      "completeness_score": 0.88,
+      "metadata": { "owner": "HR Department", "version": "1.0" }
+    }
+  ]
+}

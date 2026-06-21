@@ -1,0 +1,66 @@
+{
+  "query_id": "Q003",
+  "query": "My order #ORD-2026-0042 shows delivered but I never received it",
+  "candidates": [
+    {
+      "candidate_id": "DOC_001",
+      "candidate_text": "Missing Package Resolution SOP: Step 1 — Verify delivery address and signature. Step 2 — Contact carrier with tracking number. Step 3 — File a missing package claim within 14 days of delivery status. Escalate to supervisor if claim is denied.",
+      "bm25_score": 17.89, "vector_score": 0.93, "metadata_score": 0.95,
+      "bm25_rank": 1, "vector_rank": 1, "metadata_rank": 1,
+      "rrf_score": 0.055,
+      "source_type": "official_policy", "tenant_id": "support",
+      "department": "operations", "document_type": "sop",
+      "created_at": "2025-03-15", "last_updated": "2026-03-01",
+      "completeness_score": 0.97,
+      "metadata": { "owner": "Support Operations", "version": "2.3" }
+    },
+    {
+      "candidate_id": "DOC_002",
+      "candidate_text": "Carrier Claim Process: For lost or missing packages, customers must submit a carrier claim within 30 days. Claims require order confirmation, tracking number, and proof of value. Reimbursement is processed within 10 business days.",
+      "bm25_score": 14.56, "vector_score": 0.89, "metadata_score": 0.87,
+      "bm25_rank": 2, "vector_rank": 3, "metadata_rank": 2,
+      "rrf_score": 0.045,
+      "source_type": "sop_repository", "tenant_id": "shipping",
+      "department": "logistics", "document_type": "procedure",
+      "created_at": "2025-05-20", "last_updated": "2026-02-28",
+      "completeness_score": 0.91,
+      "metadata": { "owner": "Logistics Team", "version": "1.6" }
+    },
+    {
+      "candidate_id": "DOC_003",
+      "candidate_text": "FAQ: Order Delivery Issues — Q: What if my package says delivered but I did not receive it? A: Check with household members or neighbors first. If still missing, contact support within 48 hours to initiate a trace. Most missing packages are resolved within 5 days.",
+      "bm25_score": 12.10, "vector_score": 0.84, "metadata_score": 0.80,
+      "bm25_rank": 3, "vector_rank": 2, "metadata_rank": 5,
+      "rrf_score": 0.040,
+      "source_type": "knowledge_base", "tenant_id": "support",
+      "department": "operations", "document_type": "faq",
+      "created_at": "2025-07-01", "last_updated": "2026-01-10",
+      "completeness_score": 0.82,
+      "metadata": { "owner": "Support Knowledge", "version": "1.2" }
+    },
+    {
+      "candidate_id": "DOC_004",
+      "candidate_text": "Agent transcript: Customer reported order #ORD-2026-0038 not delivered despite status 'Delivered'. Agent advised checking with building management. Customer asked for re-ship. Agent escalated to carrier liaison. Outcome: re-ship approved.",
+      "bm25_score": 9.45, "vector_score": 0.75, "metadata_score": 0.42,
+      "bm25_rank": 4, "vector_rank": 4, "metadata_rank": 9,
+      "rrf_score": 0.031,
+      "source_type": "chat_transcript", "tenant_id": "support",
+      "department": "operations", "document_type": "interaction",
+      "created_at": "2026-04-05", "last_updated": "2026-04-05",
+      "completeness_score": 0.40,
+      "metadata": { "owner": "Support Agent Queue", "version": "N/A" }
+    },
+    {
+      "candidate_id": "DOC_005",
+      "candidate_text": "Employee leave request policy: Annual leave entitlement, sick leave procedures, and parental leave guidelines for full-time employees.",
+      "bm25_score": 4.33, "vector_score": 0.32, "metadata_score": 0.65,
+      "bm25_rank": 12, "vector_rank": 14, "metadata_rank": 6,
+      "rrf_score": 0.015,
+      "source_type": "official_policy", "tenant_id": "hr",
+      "department": "hr", "document_type": "policy",
+      "created_at": "2025-01-01", "last_updated": "2026-01-01",
+      "completeness_score": 0.98,
+      "metadata": { "owner": "HR Department", "version": "5.0" }
+    }
+  ]
+}

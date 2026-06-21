@@ -1,0 +1,66 @@
+{
+  "query_id": "Q010",
+  "query": "How to file a workplace harassment complaint?",
+  "candidates": [
+    {
+      "candidate_id": "DOC_001",
+      "candidate_text": "Workplace Harassment Policy: Company has zero tolerance for harassment of any kind. Employees who experience or witness harassment should report immediately to HR or via the confidential hotline (1-800-555-0199). All reports are investigated within 5 business days. Retaliation is strictly prohibited and subject to disciplinary action.",
+      "bm25_score": 19.45, "vector_score": 0.96, "metadata_score": 0.98,
+      "bm25_rank": 1, "vector_rank": 1, "metadata_rank": 1,
+      "rrf_score": 0.057,
+      "source_type": "official_policy", "tenant_id": "hr",
+      "department": "hr", "document_type": "policy",
+      "created_at": "2025-01-15", "last_updated": "2026-04-01",
+      "completeness_score": 0.97,
+      "metadata": { "owner": "HR Department", "version": "6.1" }
+    },
+    {
+      "candidate_id": "DOC_002",
+      "candidate_text": "Harassment Complaint Filing SOP: Step 1 — Complete the Incident Report Form (available on HR portal). Step 2 — Submit to HRBP or via confidential hotline. Step 3 — HR assigns investigator within 48 hours. Step 4 — Investigation completed within 10 business days. Step 5 — Outcome communicated to both parties.",
+      "bm25_score": 17.12, "vector_score": 0.93, "metadata_score": 0.95,
+      "bm25_rank": 2, "vector_rank": 2, "metadata_rank": 2,
+      "rrf_score": 0.051,
+      "source_type": "sop_repository", "tenant_id": "hr",
+      "department": "hr", "document_type": "sop",
+      "created_at": "2025-03-01", "last_updated": "2026-03-15",
+      "completeness_score": 0.96,
+      "metadata": { "owner": "HR Operations", "version": "3.2" }
+    },
+    {
+      "candidate_id": "DOC_003",
+      "candidate_text": "FAQ: Workplace Conduct — Q: What qualifies as harassment? A: Unwelcome conduct based on protected characteristics including race, gender, age, religion, or disability. Q: Can I report anonymously? A: Yes, via the confidential hotline. Q: What protections exist for reporters? A: Anti-retaliation policy applies to all good-faith reports.",
+      "bm25_score": 14.34, "vector_score": 0.88, "metadata_score": 0.86,
+      "bm25_rank": 3, "vector_rank": 3, "metadata_rank": 4,
+      "rrf_score": 0.042,
+      "source_type": "knowledge_base", "tenant_id": "hr",
+      "department": "hr", "document_type": "faq",
+      "created_at": "2025-05-10", "last_updated": "2026-02-20",
+      "completeness_score": 0.84,
+      "metadata": { "owner": "HR Knowledge", "version": "2.0" }
+    },
+    {
+      "candidate_id": "DOC_004",
+      "candidate_text": "IT security incident response policy: Procedure for reporting data breaches, phishing attempts, and unauthorized system access. Includes incident classification matrix and escalation contacts.",
+      "bm25_score": 6.78, "vector_score": 0.42, "metadata_score": 0.71,
+      "bm25_rank": 8, "vector_rank": 7, "metadata_rank": 3,
+      "rrf_score": 0.022,
+      "source_type": "official_policy", "tenant_id": "it",
+      "department": "it", "document_type": "policy",
+      "created_at": "2025-04-01", "last_updated": "2026-01-20",
+      "completeness_score": 0.92,
+      "metadata": { "owner": "IT Security", "version": "2.4" }
+    },
+    {
+      "candidate_id": "DOC_005",
+      "candidate_text": "Chat transcript: Employee told HR about inappropriate comments from coworker. HR advised employee to document incidents and file formal complaint. Employee asked if they could transfer departments instead. HR explained process.",
+      "bm25_score": 11.23, "vector_score": 0.78, "metadata_score": 0.36,
+      "bm25_rank": 4, "vector_rank": 4, "metadata_rank": 8,
+      "rrf_score": 0.035,
+      "source_type": "chat_transcript", "tenant_id": "hr",
+      "department": "hr", "document_type": "interaction",
+      "created_at": "2026-04-02", "last_updated": "2026-04-02",
+      "completeness_score": 0.42,
+      "metadata": { "owner": "HR Queue", "version": "N/A" }
+    }
+  ]
+}

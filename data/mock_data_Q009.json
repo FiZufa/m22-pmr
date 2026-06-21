@@ -1,0 +1,66 @@
+{
+  "query_id": "Q009",
+  "query": "Where can I find the cafeteria menu for this week?",
+  "candidates": [
+    {
+      "candidate_id": "DOC_001",
+      "candidate_text": "Employee leave request policy: Annual leave entitlement, sick leave procedures, and parental leave guidelines for full-time employees.",
+      "bm25_score": 5.12, "vector_score": 0.35, "metadata_score": 0.72,
+      "bm25_rank": 10, "vector_rank": 9, "metadata_rank": 3,
+      "rrf_score": 0.018,
+      "source_type": "official_policy", "tenant_id": "hr",
+      "department": "hr", "document_type": "policy",
+      "created_at": "2025-01-01", "last_updated": "2026-01-01",
+      "completeness_score": 0.98,
+      "metadata": { "owner": "HR Department", "version": "5.0" }
+    },
+    {
+      "candidate_id": "DOC_002",
+      "candidate_text": "Expense reimbursement procedure: How to submit travel and meal expenses for approval. Includes per diem rates for domestic and international travel.",
+      "bm25_score": 4.87, "vector_score": 0.31, "metadata_score": 0.58,
+      "bm25_rank": 11, "vector_rank": 10, "metadata_rank": 5,
+      "rrf_score": 0.017,
+      "source_type": "sop_repository", "tenant_id": "finance",
+      "department": "finance", "document_type": "sop",
+      "created_at": "2025-03-15", "last_updated": "2026-02-01",
+      "completeness_score": 0.85,
+      "metadata": { "owner": "Finance Department", "version": "2.3" }
+    },
+    {
+      "candidate_id": "DOC_003",
+      "candidate_text": "IT help desk knowledge base: How to reset your password, request software installation, and report hardware issues. Includes supported software list and SLA targets.",
+      "bm25_score": 4.23, "vector_score": 0.28, "metadata_score": 0.65,
+      "bm25_rank": 13, "vector_rank": 12, "metadata_rank": 4,
+      "rrf_score": 0.015,
+      "source_type": "knowledge_base", "tenant_id": "it",
+      "department": "it", "document_type": "faq",
+      "created_at": "2025-06-01", "last_updated": "2025-12-01",
+      "completeness_score": 0.90,
+      "metadata": { "owner": "IT Department", "version": "4.1" }
+    },
+    {
+      "candidate_id": "DOC_004",
+      "candidate_text": "Forum discussion: 'Best office chairs for back pain?' Employees share recommendations for ergonomic chairs under $500. Discussion includes brand comparisons and personal experiences.",
+      "bm25_score": 3.45, "vector_score": 0.22, "metadata_score": 0.35,
+      "bm25_rank": 15, "vector_rank": 14, "metadata_rank": 11,
+      "rrf_score": 0.012,
+      "source_type": "chat_transcript", "tenant_id": "hr",
+      "department": "hr", "document_type": "discussion",
+      "created_at": "2026-03-01", "last_updated": "2026-03-01",
+      "completeness_score": 0.25,
+      "metadata": { "owner": "Community Forum", "version": "N/A" }
+    },
+    {
+      "candidate_id": "DOC_005",
+      "candidate_text": "Shipping policy for international returns: Return shipping costs, customs documentation requirements, and processing timelines for cross-border returns.",
+      "bm25_score": 3.12, "vector_score": 0.18, "metadata_score": 0.52,
+      "bm25_rank": 16, "vector_rank": 15, "metadata_rank": 7,
+      "rrf_score": 0.011,
+      "source_type": "official_policy", "tenant_id": "shipping",
+      "department": "logistics", "document_type": "policy",
+      "created_at": "2025-04-01", "last_updated": "2026-01-15",
+      "completeness_score": 0.70,
+      "metadata": { "owner": "Logistics Team", "version": "1.4" }
+    }
+  ]
+}

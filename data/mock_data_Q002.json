@@ -1,0 +1,66 @@
+{
+  "query_id": "Q002",
+  "query": "Which toner cartridges are compatible with the LaserJet Pro M404?",
+  "candidates": [
+    {
+      "candidate_id": "DOC_001",
+      "candidate_text": "LaserJet Pro M404 Toner Compatibility Guide: This printer uses the HP 26X (CF226X) high-yield toner cartridge. Compatible third-party alternatives include LD Products CF226X and Banner CF226X. Always verify chip compatibility for firmware version 2025+.",
+      "bm25_score": 18.34, "vector_score": 0.94, "metadata_score": 0.96,
+      "bm25_rank": 1, "vector_rank": 1, "metadata_rank": 1,
+      "rrf_score": 0.053,
+      "source_type": "official_policy", "tenant_id": "support",
+      "department": "operations", "document_type": "compatibility_guide",
+      "created_at": "2025-08-01", "last_updated": "2026-02-10",
+      "completeness_score": 0.95,
+      "metadata": { "owner": "Product Team", "version": "2.1" }
+    },
+    {
+      "candidate_id": "DOC_002",
+      "candidate_text": "HP LaserJet Pro M404 Product Manual: Supported toner cartridges: CF226A, CF226X, CF227A, CF227X. The printer supports HP Smart Cartridge chip technology. Maximum monthly duty cycle: 80,000 pages.",
+      "bm25_score": 15.87, "vector_score": 0.91, "metadata_score": 0.90,
+      "bm25_rank": 2, "vector_rank": 2, "metadata_rank": 3,
+      "rrf_score": 0.048,
+      "source_type": "product_catalog", "tenant_id": "support",
+      "department": "operations", "document_type": "manual",
+      "created_at": "2025-06-15", "last_updated": "2026-01-20",
+      "completeness_score": 0.92,
+      "metadata": { "owner": "Documentation Team", "version": "1.8" }
+    },
+    {
+      "candidate_id": "DOC_003",
+      "candidate_text": "Frequently asked questions about toner cartridge replacements across all HP LaserJet models. Includes installation steps, yield estimates, and recycling instructions.",
+      "bm25_score": 11.24, "vector_score": 0.81, "metadata_score": 0.83,
+      "bm25_rank": 3, "vector_rank": 4, "metadata_rank": 2,
+      "rrf_score": 0.039,
+      "source_type": "knowledge_base", "tenant_id": "support",
+      "department": "operations", "document_type": "faq",
+      "created_at": "2025-04-10", "last_updated": "2025-10-05",
+      "completeness_score": 0.78,
+      "metadata": { "owner": "Knowledge Team", "version": "3.0" }
+    },
+    {
+      "candidate_id": "DOC_004",
+      "candidate_text": "Printer maintenance wiki: cleaning procedures, firmware updates, network configuration, and troubleshooting common paper jams for office printers.",
+      "bm25_score": 8.12, "vector_score": 0.65, "metadata_score": 0.72,
+      "bm25_rank": 5, "vector_rank": 6, "metadata_rank": 4,
+      "rrf_score": 0.024,
+      "source_type": "wiki", "tenant_id": "support",
+      "department": "operations", "document_type": "maintenance_guide",
+      "created_at": "2024-11-01", "last_updated": "2025-11-15",
+      "completeness_score": 0.88,
+      "metadata": { "owner": "IT Ops", "version": "5.2" }
+    },
+    {
+      "candidate_id": "DOC_005",
+      "candidate_text": "Discussion thread: 'My LaserJet Pro M402 stopped printing after firmware update. Anyone else had this issue?' Users discuss driver reinstallation and warranty claims.",
+      "bm25_score": 6.78, "vector_score": 0.59, "metadata_score": 0.45,
+      "bm25_rank": 8, "vector_rank": 7, "metadata_rank": 10,
+      "rrf_score": 0.019,
+      "source_type": "chat_transcript", "tenant_id": "support",
+      "department": "operations", "document_type": "discussion",
+      "created_at": "2025-12-01", "last_updated": "2025-12-01",
+      "completeness_score": 0.35,
+      "metadata": { "owner": "Community Forum", "version": "N/A" }
+    }
+  ]
+}

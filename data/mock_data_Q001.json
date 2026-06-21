@@ -1,0 +1,160 @@
+{
+  "query_id": "Q001",
+  "query": "How do I submit a reimbursement claim?",
+  "candidates": [
+    {
+      "candidate_id": "DOC_001",
+      "candidate_text": "Employees can submit reimbursement claims through the Expense Portal. Required documents include receipts and manager approval.",
+
+      "bm25_score": 15.42,
+      "vector_score": 0.91,
+      "metadata_score": 0.95,
+
+      "bm25_rank": 1,
+      "vector_rank": 2,
+      "metadata_rank": 1,
+
+      "rrf_score": 0.048,
+
+      "source_type": "official_policy",
+      "tenant_id": "claims",
+
+      "department": "finance",
+      "document_type": "policy",
+
+      "created_at": "2025-01-10",
+      "last_updated": "2026-01-15",
+
+      "completeness_score": 0.95,
+
+      "metadata": {
+        "owner": "Finance Department",
+        "version": "3.2"
+      }
+    },
+
+    {
+      "candidate_id": "DOC_002",
+      "candidate_text": "Claim reimbursement workflow including approval process and expense validation steps.",
+
+      "bm25_score": 13.87,
+      "vector_score": 0.88,
+      "metadata_score": 0.85,
+
+      "bm25_rank": 2,
+      "vector_rank": 1,
+      "metadata_rank": 4,
+
+      "rrf_score": 0.046,
+
+      "source_type": "sop_repository",
+      "tenant_id": "claims",
+
+      "department": "finance",
+      "document_type": "sop",
+
+      "created_at": "2024-12-15",
+      "last_updated": "2025-12-20",
+
+      "completeness_score": 0.90,
+
+      "metadata": {
+        "owner": "Claims Team",
+        "version": "2.0"
+      }
+    },
+
+    {
+      "candidate_id": "DOC_003",
+      "candidate_text": "Frequently asked questions about employee reimbursement claims.",
+
+      "bm25_score": 10.12,
+      "vector_score": 0.79,
+      "metadata_score": 0.82,
+
+      "bm25_rank": 4,
+      "vector_rank": 3,
+      "metadata_rank": 2,
+
+      "rrf_score": 0.041,
+
+      "source_type": "knowledge_base",
+      "tenant_id": "claims",
+
+      "department": "finance",
+      "document_type": "faq",
+
+      "created_at": "2025-02-11",
+      "last_updated": "2025-11-01",
+
+      "completeness_score": 0.75,
+
+      "metadata": {
+        "owner": "Knowledge Team",
+        "version": "1.4"
+      }
+    },
+
+    {
+      "candidate_id": "DOC_004",
+      "candidate_text": "Company leave request procedures and annual leave entitlement.",
+
+      "bm25_score": 8.76,
+      "vector_score": 0.44,
+      "metadata_score": 0.88,
+
+      "bm25_rank": 5,
+      "vector_rank": 7,
+      "metadata_rank": 3,
+
+      "rrf_score": 0.029,
+
+      "source_type": "official_policy",
+      "tenant_id": "hr",
+
+      "department": "hr",
+      "document_type": "policy",
+
+      "created_at": "2025-03-01",
+      "last_updated": "2026-01-05",
+
+      "completeness_score": 0.98,
+
+      "metadata": {
+        "owner": "HR Department",
+        "version": "4.1"
+      }
+    },
+
+    {
+      "candidate_id": "DOC_005",
+      "candidate_text": "Discussion thread about reimbursement issues reported by employees.",
+
+      "bm25_score": 7.45,
+      "vector_score": 0.71,
+      "metadata_score": 0.50,
+
+      "bm25_rank": 7,
+      "vector_rank": 5,
+      "metadata_rank": 8,
+
+      "rrf_score": 0.022,
+
+      "source_type": "chat_transcript",
+      "tenant_id": "claims",
+
+      "department": "finance",
+      "document_type": "discussion",
+
+      "created_at": "2025-06-01",
+      "last_updated": "2025-06-01",
+
+      "completeness_score": 0.45,
+
+      "metadata": {
+        "owner": "Community Forum",
+        "version": "N/A"
+      }
+    }
+  ]
+}

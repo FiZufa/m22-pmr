@@ -1,0 +1,66 @@
+{
+  "query_id": "Q005",
+  "query": "What are the technical specifications of the ProScan X120?",
+  "candidates": [
+    {
+      "candidate_id": "DOC_001",
+      "candidate_text": "ProScan X120 Datasheet: Resolution — 1200 DPI optical, 4800 DPI interpolated. Scan speed — 40 ppm (pages per minute) at 300 DPI. Connectivity — USB 3.0, Wi-Fi 6, Ethernet. Supported media — up to A3, 300 gsm. Daily duty cycle — 5,000 scans. Document feeder — 100-sheet automatic.",
+      "bm25_score": 19.01, "vector_score": 0.95, "metadata_score": 0.97,
+      "bm25_rank": 1, "vector_rank": 1, "metadata_rank": 1,
+      "rrf_score": 0.056,
+      "source_type": "product_catalog", "tenant_id": "sales",
+      "department": "product", "document_type": "datasheet",
+      "created_at": "2025-11-01", "last_updated": "2026-04-01",
+      "completeness_score": 0.98,
+      "metadata": { "owner": "Product Marketing", "version": "1.0" }
+    },
+    {
+      "candidate_id": "DOC_002",
+      "candidate_text": "ProScan X120 User Manual: Chapter 1 — Product Overview. Dimensions: 585 x 450 x 310 mm. Weight: 15.2 kg. Power: 100-240 V AC, 50/60 Hz. Operating temperature: 10-35 C. Supported file formats: PDF, TIFF, JPEG, PNG. Software included: ProScan Suite v4.2.",
+      "bm25_score": 16.73, "vector_score": 0.92, "metadata_score": 0.91,
+      "bm25_rank": 2, "vector_rank": 2, "metadata_rank": 3,
+      "rrf_score": 0.048,
+      "source_type": "product_catalog", "tenant_id": "sales",
+      "department": "product", "document_type": "manual",
+      "created_at": "2025-10-15", "last_updated": "2026-04-01",
+      "completeness_score": 0.94,
+      "metadata": { "owner": "Technical Writing", "version": "1.1" }
+    },
+    {
+      "candidate_id": "DOC_003",
+      "candidate_text": "Knowledge base: ProScan X120 troubleshooting guide — common issues include paper jams at the feeder (solution: clean rollers with isopropyl alcohol), connectivity drops on Wi-Fi (solution: update firmware), and scan quality degradation (solution: calibrate sensor).",
+      "bm25_score": 12.34, "vector_score": 0.82, "metadata_score": 0.78,
+      "bm25_rank": 3, "vector_rank": 4, "metadata_rank": 5,
+      "rrf_score": 0.038,
+      "source_type": "knowledge_base", "tenant_id": "sales",
+      "department": "support", "document_type": "troubleshooting",
+      "created_at": "2025-12-01", "last_updated": "2026-03-15",
+      "completeness_score": 0.76,
+      "metadata": { "owner": "Support Knowledge", "version": "2.0" }
+    },
+    {
+      "candidate_id": "DOC_004",
+      "candidate_text": "Wiki: ProScan X100 product overview — entry-level scanner for small offices. 600 DPI resolution, 25 ppm scan speed, USB 2.0 only. Discontinued as of 2025. Successor model is ProScan X120.",
+      "bm25_score": 9.87, "vector_score": 0.71, "metadata_score": 0.69,
+      "bm25_rank": 4, "vector_rank": 5, "metadata_rank": 6,
+      "rrf_score": 0.029,
+      "source_type": "wiki", "tenant_id": "sales",
+      "department": "product", "document_type": "product_info",
+      "created_at": "2024-08-01", "last_updated": "2025-11-01",
+      "completeness_score": 0.85,
+      "metadata": { "owner": "Community Wiki", "version": "3.0" }
+    },
+    {
+      "candidate_id": "DOC_005",
+      "candidate_text": "Forum discussion: 'Comparing document scanners for accounting — ProScan X120 vs Fujitsu fi-7300NX.' Users discuss scan quality, software compatibility, and total cost of ownership.",
+      "bm25_score": 7.23, "vector_score": 0.68, "metadata_score": 0.41,
+      "bm25_rank": 6, "vector_rank": 6, "metadata_rank": 9,
+      "rrf_score": 0.021,
+      "source_type": "chat_transcript", "tenant_id": "sales",
+      "department": "product", "document_type": "discussion",
+      "created_at": "2026-02-15", "last_updated": "2026-02-15",
+      "completeness_score": 0.30,
+      "metadata": { "owner": "Community Forum", "version": "N/A" }
+    }
+  ]
+}
