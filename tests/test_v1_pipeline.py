@@ -17,7 +17,7 @@ class TestV1Pipeline:
         result = pipeline.run(hpvd_result)
         for c in result.candidates:
             assert c.semantic_score >= 0.0
-            assert c.business_score >= 0.0
+            assert c.department_score >= 0.0
             assert c.tenant_score >= 0.0
             assert c.trust_score >= 0.0
             assert c.confidence_score >= 0.0
@@ -33,9 +33,11 @@ class TestV1Pipeline:
     def test_v1_semantic_threshold_drops_low_scores(self, hpvd_result, dummy_cross_encoder):
         pipeline = V1Pipeline(dummy_cross_encoder, config={
             "current_tenant_id": "claims",
+            "current_department": "operations",
             "semantic_threshold": 0.5,
             "final_threshold": 0.75,
-            "weights": {"semantic": 0.4, "business": 0.2, "tenant": 0.15, "trust": 0.1, "completeness": 0.05, "confidence": 0.1},
+            "weights": {"semantic": 0.4, "department": 0.2, "tenant": 0.15, "trust": 0.1, "completeness": 0.05, "confidence": 0.1},
+            "department_match": {"same": 1.0, "related": 0.6, "unrelated": 0.0, "related_pairs": []},
             "tenant_priority": {"same": 1.0, "global": 0.6, "other": 0.0},
             "source_trust": {"official_policy": 1.0, "sop_repository": 0.9, "knowledge_base": 0.8, "wiki": 0.6, "chat_transcript": 0.3},
             "confidence_weights": {"rrf": 0.4, "bm25": 0.3, "vector": 0.3},

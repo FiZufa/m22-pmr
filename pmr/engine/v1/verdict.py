@@ -9,7 +9,7 @@ def compute_final_score(
 ) -> float:
     return (
         weights["semantic"] * candidate.semantic_score
-        + weights["business"] * candidate.business_score
+        + weights["department"] * candidate.department_score
         + weights["tenant"] * candidate.tenant_score
         + weights["trust"] * candidate.trust_score
         + weights["completeness"] * candidate.completeness_score
@@ -63,6 +63,8 @@ def _build_reason_codes(allowed: list[ScoredCandidate]) -> list[str]:
             codes.append("HIGH_SEMANTIC_MATCH")
         if top.tenant_score >= 0.8:
             codes.append("TENANT_MATCH")
+        if top.department_score >= 0.8:
+            codes.append("DEPARTMENT_MATCH")
         if top.trust_score >= 0.8:
             codes.append("TRUSTED_SOURCE")
     else:

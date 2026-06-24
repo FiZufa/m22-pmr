@@ -40,7 +40,7 @@ class HPVDResult(BaseModel):
 
 class ScoredCandidate(HPVDCandidate):
     semantic_score: float = 0.0
-    business_score: float = 0.0
+    department_score: float = 0.0
     tenant_score: float = 0.0
     trust_score: float = 0.0
     confidence_score: float = 0.0

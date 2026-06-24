@@ -41,7 +41,7 @@ def print_comparison(v1_result, v2_result):
 
 
 def main():
-    mock_path = Path(__file__).parent / "data" / "mock_data_1.json"
+    mock_path = Path(__file__).parent / "data" / "mock_data_Q001.json"
     hpvd_result = load_hpvd_result(str(mock_path))
 
     cross_encoder = DummyCrossEncoder()

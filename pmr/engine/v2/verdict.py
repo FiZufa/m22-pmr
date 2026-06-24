@@ -51,6 +51,8 @@ def _build_reason_codes(allowed: list[ScoredCandidate], gated: list[ScoredCandid
             codes.append("HIGH_SEMANTIC_MATCH")
         if top.tenant_score >= 0.8:
             codes.append("TENANT_MATCH")
+        if top.department_score >= 0.8:
+            codes.append("DEPARTMENT_MATCH")
         if top.trust_score >= 0.8:
             codes.append("TRUSTED_SOURCE")
     else:

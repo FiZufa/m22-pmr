@@ -11,7 +11,7 @@ from pmr.adapters.cross_encoder import DummyCrossEncoder
 
 @pytest.fixture
 def mock_data_path() -> Path:
-    return Path(__file__).parent.parent / "data" / "mock_data_1.json"
+    return Path(__file__).parent.parent / "data" / "mock_data_Q001.json"
 
 
 @pytest.fixture

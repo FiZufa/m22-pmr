@@ -9,7 +9,7 @@ def compute_answer_probability(
 ) -> float:
     return (
         weights["semantic"] * candidate.semantic_score
-        + weights["business"] * candidate.business_score
+        + weights["department"] * candidate.department_score
         + weights["tenant"] * candidate.tenant_score
         + weights["trust"] * candidate.trust_score
         + weights["completeness"] * candidate.completeness_score
