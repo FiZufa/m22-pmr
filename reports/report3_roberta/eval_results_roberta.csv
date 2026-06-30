@@ -1,0 +1,29 @@
+query_id,scope,query,expected_key,verdict,answer_probability,semantic_score,found_expected,gated_count,total_candidates,hpvd_latency_ms,pmr_latency_ms,reason_codes,cross_encoder_used,allowed_ids
+Q001,Search Product (fixture),cordless drill under 150,cordless drill under 150,ABSTAIN,0.4916,0.6413,True,0,10,14390.26,9158.75,NO_ALLOWED_CANDIDATES,SentenceTransformerCrossEncoder,
+Q002,Search Product (fixture),what is the best tool for cutting concrete?,what is the best tool for cutting concrete?,ABSTAIN,0.4756,0.5528,True,0,10,2111.71,2130.76,NO_ALLOWED_CANDIDATES,SentenceTransformerCrossEncoder,
+Q003,Search Product (fixture),compare makita vs bosch impact drivers,compare makita vs bosch impact drivers,ABSTAIN,0.4765,0.5503,True,0,10,1586.2,1971.09,NO_ALLOWED_CANDIDATES,SentenceTransformerCrossEncoder,
+Q004,Search Product (fixture),bor baterai murah di bawah 500,bor baterai murah di bawah 500,ABSTAIN,0.4656,0.5583,True,0,10,1195.46,3429.11,NO_ALLOWED_CANDIDATES,SentenceTransformerCrossEncoder,
+Q005,Search Product,1/2 torx sockets for male torx screws,"1/2"" Torx® sockets",ALLOW,0.5005,0.5885,False,0,10,1544.18,2273.16,HAS_ALLOWED_CANDIDATES;TENANT_MATCH;TRUSTED_SOURCE,SentenceTransformerCrossEncoder,10014-24829;10014-24836;10014-24828;10014-24831;10014-24833;10014-24835;10014-24832;10014-24830;10014-24834;10014-24839
+Q006,Search Product,12 point long sockets metric chrome vanadium steel,"1/2"" 12 point long sockets Metric",ALLOW,0.5431,0.6329,True,0,10,1108.49,2163.84,HAS_ALLOWED_CANDIDATES;TENANT_MATCH;TRUSTED_SOURCE,SentenceTransformerCrossEncoder,10014-25813;10014-24829;10014-24836;10014-24833;10014-24828;10014-24842;10014-24830;10014-24839;10014-24832;10014-24831
+Q007,Search Product,set of combination wrenches metric,SET OF COMBINATION WRENCHES METRIC,ALLOW,0.5274,0.634,False,0,10,1341.23,2579.2,HAS_ALLOWED_CANDIDATES;TENANT_MATCH;TRUSTED_SOURCE,SentenceTransformerCrossEncoder,10097-25008;10097-25012;10097-25015;10097-25005;10097-25013;10097-25011;10097-25010;10097-25014;10097-25009;10097-25004
+Q008,Search Cust Info,which customers have many repeat orders and are eligible for discount,"Ewa Nowak
+Sanne Visser
+Giulia Conti",ABSTAIN,0.4624,0.5578,True,0,10,1417.28,2211.14,NO_ALLOWED_CANDIDATES,SentenceTransformerCrossEncoder,
+Q009,Search Cust Info,find customer with complaint delayed shipment or problematic spare part order,Luis Navarro,ABSTAIN,0.4775,0.5898,True,0,10,1179.4,3381.94,NO_ALLOWED_CANDIDATES,SentenceTransformerCrossEncoder,
+Q010,Product Info,how to use the 18V compact drill set safely,18V Compact Drill Set,ABSTAIN,0.496,0.5993,False,0,10,1246.94,4749.14,NO_ALLOWED_CANDIDATES,SentenceTransformerCrossEncoder,
+Q011,Product Info,safety notes and maintenance for 18V brushless hammer drill,18V Brushless Hammer Drill,ABSTAIN,0.4952,0.5504,False,0,10,1634.44,2042.87,NO_ALLOWED_CANDIDATES,SentenceTransformerCrossEncoder,
+Q012,Product Info,how should I use a 125 mm general grinding disc and what are the cautions,125 mm General Grinding Disc,ABSTAIN,0.4823,0.5905,False,0,10,1133.82,3357.09,NO_ALLOWED_CANDIDATES,SentenceTransformerCrossEncoder,
+Q013,Cust Orders,what has Ewa Nowak purchased before for technician teams,"order MW-2026-0012
+customer Ewa Nowak",ABSTAIN,0.4519,0.5184,True,0,10,1071.63,2058.51,NO_ALLOWED_CANDIDATES,SentenceTransformerCrossEncoder,
+Q014,Cust Orders,show Sanne Visser repeat replenishment and restock orders,"MW-2026-0005
+MW-2026-0013
+MW-2026-0008",ABSTAIN,0.4486,0.5134,True,0,10,1516.84,1843.31,NO_ALLOWED_CANDIDATES,SentenceTransformerCrossEncoder,
+Q015,Cust Orders,which order was returned because of calibration concern,"Claire Dubois
+order MW-2026-0006",ABSTAIN,0.4869,0.6067,True,0,10,1445.65,2274.25,NO_ALLOWED_CANDIDATES,SentenceTransformerCrossEncoder,
+Q016,Compability Products,is the 8 piece masonry bit set compatible with the 18V brushless hammer drill,18V Brushless Hammer Drill + 8 Piece Masonry Bit Set,ALLOW,0.5199,0.6312,False,0,10,1038.85,9164.86,HAS_ALLOWED_CANDIDATES;TENANT_MATCH;TRUSTED_SOURCE,SentenceTransformerCrossEncoder,10071-25870;10047-25846;10063-25862;10012-25811;10024-25823
+Q017,Compability Products,can the 10 mm HSS drill bit be used with the 18V compact drill set,18V Compact Drill Set + 10 mm HSS Drill Bit,ALLOW,0.518,0.6336,False,0,10,2674.5,8891.94,HAS_ALLOWED_CANDIDATES;TENANT_MATCH;TRUSTED_SOURCE,SentenceTransformerCrossEncoder,10071-25870;10063-25862
+Q018,Compability Products,which accessories and spare parts are compatible with the 18V compact drill set,"18V 4Ah Battery Pack
+18V Fast Charger
+10 mm HSS Drill Bit
+13 mm Replacement Chuck",ALLOW,0.5049,0.632,False,0,10,2994.95,9019.03,HAS_ALLOWED_CANDIDATES;TENANT_MATCH;TRUSTED_SOURCE,SentenceTransformerCrossEncoder,10071-25870
+Q019,Compability Products,is the 125 mm general grinding disc compatible with the 900W angle grinder,900W Angle Grinder + 125 mm General Grinding Disc,ABSTAIN,0.48,0.5505,False,0,10,1767.55,2566.21,NO_ALLOWED_CANDIDATES,SentenceTransformerCrossEncoder,

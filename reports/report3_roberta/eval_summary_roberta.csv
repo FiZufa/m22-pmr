@@ -1,0 +1,19 @@
+metric,value
+total_queries,19
+product_queries,10
+non_product_queries,9
+true_positives,1
+false_negatives,9
+true_negatives,9
+false_positives,0
+product_recall_pct,10.0
+non_product_specificity_pct,100.0
+overall_accuracy_pct,52.6
+avg_answer_probability,0.4897
+avg_semantic_score,0.5859
+avg_gated_per_query,0.0
+avg_hpvd_latency_ms,2232
+avg_pmr_latency_ms,3961
+avg_total_latency_ms,6193
+cross_encoder_model,cross-encoder/stsb-roberta-large
+analyzed_at,2026-06-30 22:30 UTC
