@@ -1,0 +1,24 @@
+metric,value
+total_queries,19
+product_queries,10
+non_product_queries,9
+true_positives,1
+false_negatives,9
+true_negatives,7
+false_positives,2
+product_recall_pct,10.0
+non_product_specificity_pct,77.8
+overall_accuracy_pct,42.1
+avg_domain_score,0.5062
+avg_semantic_score,0.5859
+avg_department_score,0.0000
+avg_tenant_score,1.0000
+avg_trust_score,0.8500
+avg_confidence_score,0.3309
+avg_gated_per_query,0.0
+avg_hpvd_latency_ms,2075
+avg_pmr_latency_ms,7203
+avg_total_latency_ms,9278
+cross_encoder_model,cross-encoder/ms-marco-MiniLM-L-6-v2
+weights,semantic=0.35 dept=0.20 tenant=0.15 trust=0.10 confidence=0.20
+analyzed_at,2026-06-30 23:54 UTC
